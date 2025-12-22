@@ -8,8 +8,23 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-/* testing scrollbar costumizing */
+/*
+testing scrollbar costumizing, find it online that code.
+*/
 ::-webkit-scrollbar {
     width: 6px;
     height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1; /* grey */
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
 }
