@@ -10,6 +10,7 @@ body {
 
 /*
 testing scrollbar costumizing, find it online that code.
+worked as intended!
 */
 ::-webkit-scrollbar {
     width: 6px;
