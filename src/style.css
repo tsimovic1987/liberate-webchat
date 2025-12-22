@@ -1,0 +1,15 @@
+/* try to seperate some rules with style css */
+
+/* want to extract many global rules as possible */
+
+/* import fonds */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* testing scrollbar costumizing */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
