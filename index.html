@@ -2,11 +2,31 @@
 // got a better design idea (add dark class)
 <html lang="de" class="dark"> // maybe change the class name later
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liberate Chat</title>
-    <link rel="stylesheet" type="text/css" href="src/style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Liberate Chat</title>
+<link rel="stylesheet" type="text/css" href="src/style.css">
+<script src="https://cdn.tailwindcss.com"></script>
+
+// want to add darkmode to my webchat
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        slate: {
+                            850: '#151f32',
+                            900: '#0f172a',
+                        },
+                        indigo: {
+                            550: '#4f46e5',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
 
 </head>
 
